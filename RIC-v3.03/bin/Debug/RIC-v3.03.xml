@@ -1,0 +1,97 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+RIC-v3.03
+</name>
+</assembly>
+<members>
+<member name="T:RIC_v3._03.DataSet1Education">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:RIC_v3._03.DataSet1Education.__Clone_de_EDUCATION__DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RIC_v3._03.DataSet1Education.__Clone_de_EDUCATION__Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RIC_v3._03.DataSet1Education.__Clone_de_EDUCATION__RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RIC_v3._03.DataSet1EducationTableAdapters._Clone_de_EDUCATION__TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RIC_v3._03.DataSet1EducationTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:RIC_v3._03.DataSet1EducationTableAdapters.TableAdapterManager.UpdateUpdatedRows(RIC_v3._03.DataSet1Education,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:RIC_v3._03.DataSet1EducationTableAdapters.TableAdapterManager.UpdateInsertedRows(RIC_v3._03.DataSet1Education,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:RIC_v3._03.DataSet1EducationTableAdapters.TableAdapterManager.UpdateDeletedRows(RIC_v3._03.DataSet1Education,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:RIC_v3._03.DataSet1EducationTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:RIC_v3._03.DataSet1EducationTableAdapters.TableAdapterManager.UpdateAll(RIC_v3._03.DataSet1Education)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:RIC_v3._03.DataSet1EducationTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:RIC_v3._03.DataSet1EducationTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:RIC_v3._03.Form1.GenererRapportExcelInitialEducation(System.String)">
+ <summary>
+ Generer le fichier excel de rapport initial pour l'infrastructure Education
+ </summary>
+ <param name="sFileEducation"></param>
+</member>
+<member name="T:RIC_v3._03.My.Resources.Resources">
+<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member>
+<member name="P:RIC_v3._03.My.Resources.Resources.ResourceManager">
+<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member>
+<member name="P:RIC_v3._03.My.Resources.Resources.Culture">
+<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member>
+</members>
+</doc>
